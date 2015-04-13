@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		09D474331AD84868005BFF97 /* PhotoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D474321AD84868005BFF97 /* PhotoController.m */; };
 		09D474361AD85302005BFF97 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D474351AD85302005BFF97 /* DetailViewController.m */; };
+		09D474391ADBA56A005BFF97 /* PresentDetailTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D474381ADBA56A005BFF97 /* PresentDetailTransition.m */; };
 		09F0F1D91AC81A4C006A1D28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F0F1D81AC81A4C006A1D28 /* main.m */; };
 		09F0F1E21AC81A4C006A1D28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09F0F1E01AC81A4C006A1D28 /* Main.storyboard */; };
 		09F0F1E41AC81A4C006A1D28 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09F0F1E31AC81A4C006A1D28 /* Images.xcassets */; };
@@ -37,6 +38,8 @@
 		09D474321AD84868005BFF97 /* PhotoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoController.m; sourceTree = "<group>"; };
 		09D474341AD85302005BFF97 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		09D474351AD85302005BFF97 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		09D474371ADBA56A005BFF97 /* PresentDetailTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentDetailTransition.h; sourceTree = "<group>"; };
+		09D474381ADBA56A005BFF97 /* PresentDetailTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentDetailTransition.m; sourceTree = "<group>"; };
 		09F0F1D31AC81A4C006A1D28 /* Photo Bombers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Photo Bombers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09F0F1D71AC81A4C006A1D28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09F0F1D81AC81A4C006A1D28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -113,6 +116,8 @@
 				09D474321AD84868005BFF97 /* PhotoController.m */,
 				09D474341AD85302005BFF97 /* DetailViewController.h */,
 				09D474351AD85302005BFF97 /* DetailViewController.m */,
+				09D474371ADBA56A005BFF97 /* PresentDetailTransition.h */,
+				09D474381ADBA56A005BFF97 /* PresentDetailTransition.m */,
 			);
 			path = "Photo Bombers";
 			sourceTree = "<group>";
@@ -299,6 +304,7 @@
 				09F0F2041AC85537006A1D28 /* PhotoCellCollectionViewCell.m in Sources */,
 				09F0F1D91AC81A4C006A1D28 /* main.m in Sources */,
 				09F0F2011AC81A87006A1D28 /* CollectionViewController.m in Sources */,
+				09D474391ADBA56A005BFF97 /* PresentDetailTransition.m in Sources */,
 				09D474331AD84868005BFF97 /* PhotoController.m in Sources */,
 				09D474361AD85302005BFF97 /* DetailViewController.m in Sources */,
 			);
