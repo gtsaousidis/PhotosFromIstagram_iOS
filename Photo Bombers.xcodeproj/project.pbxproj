@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0908074A1AE2AD4100D46649 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090807491AE2AD4100D46649 /* AudioToolbox.framework */; };
+		0908074E1AE3F2B100D46649 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0908074D1AE3F2B100D46649 /* Images.xcassets */; };
+		0929D1731AE3FA25001AE229 /* LogIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 0929D1721AE3FA25001AE229 /* LogIn.m */; };
+		0929D1751AE400DD001AE229 /* LogIn.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0929D1741AE400DD001AE229 /* LogIn.xib */; };
+		0987599E1ADED738003A313F /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 0987599D1ADED738003A313F /* Images */; };
 		09D474331AD84868005BFF97 /* PhotoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D474321AD84868005BFF97 /* PhotoController.m */; };
 		09D474361AD85302005BFF97 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D474351AD85302005BFF97 /* DetailViewController.m */; };
 		09D474391ADBA56A005BFF97 /* PresentDetailTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D474381ADBA56A005BFF97 /* PresentDetailTransition.m */; };
 		09D4743C1ADBB251005BFF97 /* DismissDetailTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D4743B1ADBB251005BFF97 /* DismissDetailTransition.m */; };
+		09EA57681AE6D8F800793567 /* Users.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EA57671AE6D8F800793567 /* Users.m */; };
 		09F0F1D91AC81A4C006A1D28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F0F1D81AC81A4C006A1D28 /* main.m */; };
 		09F0F1E21AC81A4C006A1D28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09F0F1E01AC81A4C006A1D28 /* Main.storyboard */; };
-		09F0F1E41AC81A4C006A1D28 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09F0F1E31AC81A4C006A1D28 /* Images.xcassets */; };
 		09F0F1E71AC81A4C006A1D28 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09F0F1E51AC81A4C006A1D28 /* LaunchScreen.xib */; };
 		09F0F1F31AC81A4C006A1D28 /* Photo_BombersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F0F1F21AC81A4C006A1D28 /* Photo_BombersTests.m */; };
 		09F0F2001AC81A87006A1D28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F0F1FD1AC81A87006A1D28 /* AppDelegate.m */; };
@@ -35,6 +40,12 @@
 /* Begin PBXFileReference section */
 		026C91499AC571939E0579FE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0907B9A61ACC255A00873767 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		090807491AE2AD4100D46649 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		0908074D1AE3F2B100D46649 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0929D1711AE3FA25001AE229 /* LogIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LogIn.h; path = ../LogIn.h; sourceTree = "<group>"; };
+		0929D1721AE3FA25001AE229 /* LogIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LogIn.m; path = ../LogIn.m; sourceTree = "<group>"; };
+		0929D1741AE400DD001AE229 /* LogIn.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LogIn.xib; path = ../LogIn.xib; sourceTree = "<group>"; };
+		0987599D1ADED738003A313F /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Images; path = "../../../Downloads/CDSideBarController-master/CDSideBar/Images"; sourceTree = "<group>"; };
 		09D474311AD84868005BFF97 /* PhotoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoController.h; sourceTree = "<group>"; };
 		09D474321AD84868005BFF97 /* PhotoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoController.m; sourceTree = "<group>"; };
 		09D474341AD85302005BFF97 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
@@ -43,11 +54,12 @@
 		09D474381ADBA56A005BFF97 /* PresentDetailTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentDetailTransition.m; sourceTree = "<group>"; };
 		09D4743A1ADBB251005BFF97 /* DismissDetailTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DismissDetailTransition.h; sourceTree = "<group>"; };
 		09D4743B1ADBB251005BFF97 /* DismissDetailTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DismissDetailTransition.m; sourceTree = "<group>"; };
+		09EA57661AE6D8F800793567 /* Users.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Users.h; sourceTree = "<group>"; };
+		09EA57671AE6D8F800793567 /* Users.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Users.m; sourceTree = "<group>"; };
 		09F0F1D31AC81A4C006A1D28 /* Photo Bombers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Photo Bombers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09F0F1D71AC81A4C006A1D28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09F0F1D81AC81A4C006A1D28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		09F0F1E11AC81A4C006A1D28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		09F0F1E31AC81A4C006A1D28 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		09F0F1E61AC81A4C006A1D28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		09F0F1EC1AC81A4C006A1D28 /* Photo BombersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Photo BombersTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09F0F1F11AC81A4C006A1D28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -67,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0908074A1AE2AD4100D46649 /* AudioToolbox.framework in Frameworks */,
 				536C0DD557989B8366EB4007 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -109,8 +122,9 @@
 				09F0F1FD1AC81A87006A1D28 /* AppDelegate.m */,
 				09F0F1FE1AC81A87006A1D28 /* CollectionViewController.h */,
 				09F0F1FF1AC81A87006A1D28 /* CollectionViewController.m */,
+				0908074D1AE3F2B100D46649 /* Images.xcassets */,
 				09F0F1E01AC81A4C006A1D28 /* Main.storyboard */,
-				09F0F1E31AC81A4C006A1D28 /* Images.xcassets */,
+				0987599D1ADED738003A313F /* Images */,
 				09F0F1E51AC81A4C006A1D28 /* LaunchScreen.xib */,
 				09F0F1D61AC81A4C006A1D28 /* Supporting Files */,
 				09F0F2021AC85536006A1D28 /* PhotoCellCollectionViewCell.h */,
@@ -123,6 +137,11 @@
 				09D474381ADBA56A005BFF97 /* PresentDetailTransition.m */,
 				09D4743A1ADBB251005BFF97 /* DismissDetailTransition.h */,
 				09D4743B1ADBB251005BFF97 /* DismissDetailTransition.m */,
+				0929D1711AE3FA25001AE229 /* LogIn.h */,
+				0929D1721AE3FA25001AE229 /* LogIn.m */,
+				0929D1741AE400DD001AE229 /* LogIn.xib */,
+				09EA57661AE6D8F800793567 /* Users.h */,
+				09EA57671AE6D8F800793567 /* Users.m */,
 			);
 			path = "Photo Bombers";
 			sourceTree = "<group>";
@@ -156,6 +175,7 @@
 		17A7AB97DE8A58973272B81D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				090807491AE2AD4100D46649 /* AudioToolbox.framework */,
 				026C91499AC571939E0579FE /* libPods.a */,
 			);
 			name = Frameworks;
@@ -252,9 +272,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0987599E1ADED738003A313F /* Images in Resources */,
+				0908074E1AE3F2B100D46649 /* Images.xcassets in Resources */,
 				09F0F1E21AC81A4C006A1D28 /* Main.storyboard in Resources */,
 				09F0F1E71AC81A4C006A1D28 /* LaunchScreen.xib in Resources */,
-				09F0F1E41AC81A4C006A1D28 /* Images.xcassets in Resources */,
+				0929D1751AE400DD001AE229 /* LogIn.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,11 +327,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0929D1731AE3FA25001AE229 /* LogIn.m in Sources */,
 				09F0F2001AC81A87006A1D28 /* AppDelegate.m in Sources */,
 				09F0F2041AC85537006A1D28 /* PhotoCellCollectionViewCell.m in Sources */,
 				09F0F1D91AC81A4C006A1D28 /* main.m in Sources */,
 				09F0F2011AC81A87006A1D28 /* CollectionViewController.m in Sources */,
 				09D474391ADBA56A005BFF97 /* PresentDetailTransition.m in Sources */,
+				09EA57681AE6D8F800793567 /* Users.m in Sources */,
 				09D474331AD84868005BFF97 /* PhotoController.m in Sources */,
 				09D4743C1ADBB251005BFF97 /* DismissDetailTransition.m in Sources */,
 				09D474361AD85302005BFF97 /* DetailViewController.m in Sources */,
@@ -435,10 +459,12 @@
 			baseConfigurationReference = 1571D8FE920A919379170224 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dimitris Sotiris Tsolis (B3469K7269)";
 				INFOPLIST_FILE = "Photo Bombers/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -447,10 +473,13 @@
 			baseConfigurationReference = 7887DA398DFF2A9E7FF93705 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dimitris Sotiris Tsolis (B3469K7269)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dimitris Sotiris Tsolis (B3469K7269)";
 				INFOPLIST_FILE = "Photo Bombers/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

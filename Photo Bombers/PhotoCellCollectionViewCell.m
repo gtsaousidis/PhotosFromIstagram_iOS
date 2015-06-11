@@ -15,9 +15,9 @@
 -(void)setPhoto:(NSDictionary *)photo{
     _photo = photo;
     
-   [PhotoController imageForPhoto:_photo size:@"thumbnail" completion:^(UIImage *image) {
-       self.imageView.image = image;
-   }];
+    [PhotoController imageForPhoto:_photo size:@"thumbnail" completion:^(UIImage *image) {
+        self.imageView.image = image;
+    }];
     
 }
 
@@ -45,7 +45,7 @@
 }
 
 -(void)layoutSubviews{
-
+    
     [super layoutSubviews];
     
     self.imageView.frame = self.contentView.bounds;
@@ -54,7 +54,7 @@
 
 -(void)like{
     
-   // NSLog(@"Link: %@", self.photo[@"link"]);
+    // NSLog(@"Link: %@", self.photo[@"link"]);
     
     NSURLSession *session = [NSURLSession sharedSession];
     
@@ -76,14 +76,14 @@
         
     }];
     [task resume];
-
     
-   
+    
+    
     
 }
 
 -(void)showLikeCompletion{
-
+    
     UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Liked!" message:nil delegate:nil cancelButtonTitle:nil otherButtonTitles:nil, nil];
     [alert show];
     
